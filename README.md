@@ -7,6 +7,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+ Installation of the project
+1. Clone this project.
+2. Go to the project folder
+3. Create the `.env` file from the `.env.example` file found in the root of the project (you must put your credentials to connect to your local database manager).
+4. Display the command line and run the command `composer install` to install the necessary packages.
+5. Display the command line and run the command `npm install` to install the necessary styles.
+6. Display the command line and run the command `npm run dev` to install the necessary styles.
+7. Display the command line and run the command `php artisan migrate` to install the necessary db and run `php artisan migrate:refresh --seed`.
+8. Display the command line and run the command `php artisan key:generate`.
+9. In the `.env` file you must make some additional configurations. You must configure the credentials of the payment processors that are used in the system `.
+10. Turn on the server for the locale enviroment with `php artisan serve` command
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
